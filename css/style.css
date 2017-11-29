@@ -1,21 +1,64 @@
+/*--------------- Global Styles ---------------*/
+
+*, *:before, *:after {
+box-sizing: border-box;
+}
+
 body {
   background-color: #333;
   font-family: sans-serif;
   font-size: 10px;
 }
 
+h1 {
+  font-size: 1.7em;
+  font-weight: 900;
+  line-height: 1.3em;
+}
+
+h3 {
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
 .container {
   margin: 0 auto;
   width: 420px;
 }
 
+/*--------------- Navigation ---------------*/
 nav {
+  background-color: #000;
   margin: 0 auto;
-  padding: 10px 0 15px 15px;
+  padding: 16px 0 15px 15px;
   position: fixed;
   width: 420px;
 }
 
+/*--------------- Restaurant List ---------------*/
 .restaurant-list {
   padding-top: 50px;
+}
+
+.location {
+  background-color: #DBDBDB;
+  display: inline-block;
+  width: 100%;
+}
+
+.location:hover { background-color: #B5B5B5; }
+
+.content {
+  display: inline;
+  float: left;
+  margin: 0 auto;
+  padding: 4% 4%;
+  width: 92%;
+}
+
+.arrow {
+  display: inline;
+  float: left;
+  margin: 0 auto;
+  padding: 6.5% 0 6.5% 0;
+  width: 8%;
 }
